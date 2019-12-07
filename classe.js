@@ -39,4 +39,4 @@ class Livro {
 }
 
 const meuLivro = new Livro ('Jurassic Park','Aventura', 'Michael Crichton', 60)
-console.log(`Estou lendo o livro ${meuLivro.nome}, do gênero ${meuLivro.genero} e seu autxr é ${meuLivro.autor}. Eu já li ${meuLivro.qtdPaginas} páginas!`)
+console.log(`Estou lendo o livro ${meuLivro.nome}, do gênero ${meuLivro.genero} e seu/sua autor(a) é ${meuLivro.autor}. Eu já li ${meuLivro.qtdPaginas} páginas!`)
