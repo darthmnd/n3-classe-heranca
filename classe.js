@@ -2,7 +2,7 @@ class Livro {
 	constructor(nome, genero, autxr, qtdPaginas){
 		this._nome = nome,
 		this._genero = genero,
-		this._autxr = autxr,
+		this._autor = autor,
 		this._qtdPaginas = qtdPaginas 
 	}
 
@@ -13,8 +13,8 @@ class Livro {
 	set genero(newGenero) {
 		this._genero = newGenero
 	}
-	set autor(newAutxr) {
-		this._autxr = newAutxr
+	set autor(newAutor) {
+		this._autor = newAutor
 	}
 	
 	set qtdPaginas(newQtdPaginas) {
@@ -29,8 +29,8 @@ class Livro {
 		return this._genero
 	}
 
-	get autxr(){
-		return this._autxr
+	get autor(){
+		return this._autor
 	}
 	
 	get qtdPaginas(){
@@ -39,4 +39,4 @@ class Livro {
 }
 
 const meuLivro = new Livro ('Jurassic Park','Aventura', 'Michael Crichton', 60)
-console.log(`Estou lendo o livro ${meuLivro.nome}, do gênero ${meuLivro.genero} e seu autxr é ${meuLivro.autxr}. Eu já li ${meuLivro.qtdPaginas} páginas!`)
+console.log(`Estou lendo o livro ${meuLivro.nome}, do gênero ${meuLivro.genero} e seu autxr é ${meuLivro.autor}. Eu já li ${meuLivro.qtdPaginas} páginas!`)
