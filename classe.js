@@ -1,5 +1,5 @@
 class Livro {
-	constructor(nome, genero, autxr, qtdPaginas){
+	constructor(nome, genero, autor, qtdPaginas){
 		this._nome = nome,
 		this._genero = genero,
 		this._autor = autor,
